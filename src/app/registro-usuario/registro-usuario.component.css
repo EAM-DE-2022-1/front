@@ -1,0 +1,31 @@
+.container{
+  border:  1px solid lightgray;
+  border-radius: 10px;
+  margin: 100px;
+}
+
+.margenDiv{
+  margin: 50px;
+}
+
+.margenDiv2{
+  margin: 50px;
+}
+
+.margenLabel{
+  margin-top: 50px;
+  margin-left: 525px;
+  font-size: 30px;
+}
+
+.margenInput{
+  margin-left: 280px;
+}
+
+.margenInput2{
+  margin-left: 50px;
+}
+
+.anchoInput{
+  width: 300px;
+}
