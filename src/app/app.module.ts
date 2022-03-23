@@ -10,12 +10,14 @@ import { FormsModule, NgForm } from '@angular/forms';
 import {MatIconModule} from '@angular/material/icon';
 import { MatSliderModule } from '@angular/material/slider';
 import { RegistroUsuarioComponent } from './registro-usuario/registro-usuario.component';
+import { HomeUsuarioComponent } from './home-usuario/home-usuario.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    RegistroUsuarioComponent
+    RegistroUsuarioComponent,
+    HomeUsuarioComponent
   ],
   imports: [
     BrowserModule,
