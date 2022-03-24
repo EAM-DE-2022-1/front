@@ -13,7 +13,7 @@ import { RegistroUsuarioComponent } from './registro-usuario/registro-usuario.co
 import { HomeUsuarioComponent } from './home-usuario/home-usuario.component';
 import {MatCheckboxModule} from "@angular/material/checkbox";
 import {MatButtonModule} from "@angular/material/button";
-
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -31,7 +31,8 @@ import {MatButtonModule} from "@angular/material/button";
     MatIconModule,
     MatSliderModule,
     MatCheckboxModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
