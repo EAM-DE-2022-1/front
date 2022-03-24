@@ -12,6 +12,7 @@ import { MatSliderModule } from '@angular/material/slider';
 import { RegistroUsuarioComponent } from './registro-usuario/registro-usuario.component';
 import { HomeUsuarioComponent } from './home-usuario/home-usuario.component';
 import {MatCheckboxModule} from "@angular/material/checkbox";
+import {MatButtonModule} from "@angular/material/button";
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import {MatCheckboxModule} from "@angular/material/checkbox";
     FormsModule,
     MatIconModule,
     MatSliderModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
