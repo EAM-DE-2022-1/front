@@ -13,6 +13,8 @@ import { RegistroUsuarioComponent } from './registro-usuario/registro-usuario.co
 import { HomeUsuarioComponent } from './home-usuario/home-usuario.component';
 import {MatCheckboxModule} from "@angular/material/checkbox";
 import {MatButtonModule} from "@angular/material/button";
+import { ConfiguracionLucesComponent } from './configuracion-luces/configuracion-luces.component';
+import {MatSlideToggleModule} from "@angular/material/slide-toggle";
 
 
 @NgModule({
@@ -20,7 +22,8 @@ import {MatButtonModule} from "@angular/material/button";
     AppComponent,
     LoginComponent,
     RegistroUsuarioComponent,
-    HomeUsuarioComponent
+    HomeUsuarioComponent,
+    ConfiguracionLucesComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +34,8 @@ import {MatButtonModule} from "@angular/material/button";
     MatIconModule,
     MatSliderModule,
     MatCheckboxModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSlideToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
