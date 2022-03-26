@@ -15,6 +15,7 @@ import {MatButtonModule} from "@angular/material/button";
 import { ConfiguracionLucesComponent } from './configuracion-luces/configuracion-luces.component';
 import {MatSlideToggleModule} from "@angular/material/slide-toggle";
 import { MatCardModule } from '@angular/material/card';
+import {RouterModule} from "@angular/router";
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { MatCardModule } from '@angular/material/card';
     MatCheckboxModule,
     MatButtonModule,
     MatSlideToggleModule,
-    MatCardModule
+    MatCardModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
