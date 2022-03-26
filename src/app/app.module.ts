@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
@@ -15,6 +14,7 @@ import {MatCheckboxModule} from "@angular/material/checkbox";
 import {MatButtonModule} from "@angular/material/button";
 import { ConfiguracionLucesComponent } from './configuracion-luces/configuracion-luces.component';
 import {MatSlideToggleModule} from "@angular/material/slide-toggle";
+import { MatCardModule } from '@angular/material/card';
 
 
 @NgModule({
@@ -35,7 +35,8 @@ import {MatSlideToggleModule} from "@angular/material/slide-toggle";
     MatSliderModule,
     MatCheckboxModule,
     MatButtonModule,
-    MatSlideToggleModule
+    MatSlideToggleModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
