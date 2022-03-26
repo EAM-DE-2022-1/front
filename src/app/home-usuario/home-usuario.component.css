@@ -32,3 +32,9 @@
 .tamañoBoton{
   width: 150px;
 }
+
+.margenLabel{
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: bold;
+}

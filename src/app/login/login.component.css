@@ -25,3 +25,7 @@
     height:380px;
     background-size: cover;
   }
+
+  .tituloBold{
+    font-weight: bold;
+  }

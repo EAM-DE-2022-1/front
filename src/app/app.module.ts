@@ -16,6 +16,8 @@ import { ConfiguracionLucesComponent } from './configuracion-luces/configuracion
 import {MatSlideToggleModule} from "@angular/material/slide-toggle";
 import { MatCardModule } from '@angular/material/card';
 import {RouterModule} from "@angular/router";
+import { VistaProductoComponent } from './vista-producto/vista-producto.component';
+import {MatTableModule} from "@angular/material/table";
 
 
 @NgModule({
@@ -24,7 +26,8 @@ import {RouterModule} from "@angular/router";
     LoginComponent,
     RegistroUsuarioComponent,
     HomeUsuarioComponent,
-    ConfiguracionLucesComponent
+    ConfiguracionLucesComponent,
+    VistaProductoComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +41,8 @@ import {RouterModule} from "@angular/router";
     MatButtonModule,
     MatSlideToggleModule,
     MatCardModule,
-    RouterModule
+    RouterModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
