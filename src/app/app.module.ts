@@ -4,22 +4,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatInputModule} from '@angular/material/input';
+import { MatInputModule } from '@angular/material/input';
 import { FormsModule, NgForm } from '@angular/forms';
-import {MatIconModule} from '@angular/material/icon';
+import { MatIconModule } from '@angular/material/icon';
 import { MatSliderModule } from '@angular/material/slider';
 import { RegistroUsuarioComponent } from './registro-usuario/registro-usuario.component';
 import { HomeUsuarioComponent } from './home-usuario/home-usuario.component';
-import {MatCheckboxModule} from "@angular/material/checkbox";
-import {MatButtonModule} from "@angular/material/button";
+import { MatCheckboxModule } from "@angular/material/checkbox";
+import { MatButtonModule } from "@angular/material/button";
 import { ConfiguracionLucesComponent } from './configuracion-luces/configuracion-luces.component';
-import {MatSlideToggleModule} from "@angular/material/slide-toggle";
+import { MatSlideToggleModule } from "@angular/material/slide-toggle";
 import { MatCardModule } from '@angular/material/card';
-import {RouterModule} from "@angular/router";
+import { RouterModule } from "@angular/router";
 import { VistaProductoComponent } from './vista-producto/vista-producto.component';
-import {MatTableModule} from "@angular/material/table";
+import { MatTableModule } from "@angular/material/table";
 import { ConfiguracionAmbienteComponent } from './configuracion-ambiente/configuracion-ambiente.component';
-
+import { ConfiguracionGasesComponent } from './configuracion-gases/configuracion-gases.component';
 
 
 @NgModule({
@@ -30,7 +30,8 @@ import { ConfiguracionAmbienteComponent } from './configuracion-ambiente/configu
     HomeUsuarioComponent,
     ConfiguracionLucesComponent,
     VistaProductoComponent,
-    ConfiguracionAmbienteComponent
+    ConfiguracionAmbienteComponent,
+    ConfiguracionGasesComponent
   ],
   imports: [
     BrowserModule,
