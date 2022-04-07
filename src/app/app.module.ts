@@ -17,14 +17,10 @@ import { MatSlideToggleModule } from "@angular/material/slide-toggle";
 import { MatCardModule } from '@angular/material/card';
 import { RouterModule } from "@angular/router";
 import { VistaProductoComponent } from './vista-producto/vista-producto.component';
-<<<<<<< HEAD
 import {MatTableModule} from "@angular/material/table";
 import { EditarProductoComponent } from './editar-producto/editar-producto.component';
-=======
-import { MatTableModule } from "@angular/material/table";
 import { ConfiguracionAmbienteComponent } from './configuracion-ambiente/configuracion-ambiente.component';
 import { ConfiguracionGasesComponent } from './configuracion-gases/configuracion-gases.component';
->>>>>>> 4113475b5070a8c9fd927493edfe8b3e251e3e92
 
 
 @NgModule({
