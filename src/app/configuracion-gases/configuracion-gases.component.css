@@ -1,0 +1,50 @@
+#mainDiv{
+    padding: 3%;
+    padding-top: 2%;
+    width: 100%;
+    height: 100%;
+}
+
+#mainTitle{
+    width: 100%;
+    text-align: center;
+}
+
+#title{
+    position: static;
+}
+
+#mainMessage{
+    width: 100%;
+    height: 90%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+#message{
+    font-size: 30px;
+    position: static;
+}
+
+.row{
+    width: 100%;
+    margin-left: 0.1%;
+    align-content: center;
+}
+
+#warningImg{
+    width: 400px;
+    height: 400px;
+}
+
+#divForNextBtn{
+    text-align: right;
+}
+
+.neutral{
+    color: black;
+}
+
+.warning{
+    color: red;
+}

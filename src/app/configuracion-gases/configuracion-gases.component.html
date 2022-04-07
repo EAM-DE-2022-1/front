@@ -1,0 +1,18 @@
+<div id="mainDiv">
+    <div id="divForNextBtn">
+        <a href="" mat-stroked-button color="primary" class="btn-block">Siguiente</a>
+    </div>
+    <div id="mainTitle">
+        <h1 id="title">Configuraci&oacute;n del Sensor de gases</h1>
+    </div>
+    <div id="mainMessage">
+        <div class="row">
+            <span *ngIf="!test()"><img src="assets/img/configuracionGases/sleeping.gif" alt="WARNING!" id="warningImg"></span>
+            <span *ngIf="test()"><img src="assets/img/configuracionGases/warning.gif" alt="WARNING!" id="warningImg"></span>
+        </div>
+        <div class="row">
+            <span id="message" *ngIf="!test()" class="neutral">No se han detectado gases...</span>
+            <span id="message" *ngIf="test()" class="warning">&iexcl;Se han detectado gases&excl;</span>
+        </div>
+    </div>
+</div>
