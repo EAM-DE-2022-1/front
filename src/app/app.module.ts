@@ -18,6 +18,7 @@ import { MatCardModule } from '@angular/material/card';
 import {RouterModule} from "@angular/router";
 import { VistaProductoComponent } from './vista-producto/vista-producto.component';
 import {MatTableModule} from "@angular/material/table";
+import { EditarProductoComponent } from './editar-producto/editar-producto.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import {MatTableModule} from "@angular/material/table";
     RegistroUsuarioComponent,
     HomeUsuarioComponent,
     ConfiguracionLucesComponent,
-    VistaProductoComponent
+    VistaProductoComponent,
+    EditarProductoComponent
   ],
   imports: [
     BrowserModule,
