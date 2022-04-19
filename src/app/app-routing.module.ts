@@ -16,9 +16,9 @@ const routes: Routes = [
   {path: 'configuracionLuces', component: ConfiguracionLucesComponent},
   {path: 'vistaProducto', component: VistaProductoComponent},
   {path: 'editarProducto', component: EditarProductoComponent},
-  { path: '**', pathMatch: 'full', redirectTo: 'login'},
   { path: 'configuracionAmbiente', component: ConfiguracionAmbienteComponent },
   { path: 'configuracionGases', component: ConfiguracionGasesComponent },
+  { path: '**', pathMatch: 'full', redirectTo: 'login'},
 ];
 
 @NgModule({
