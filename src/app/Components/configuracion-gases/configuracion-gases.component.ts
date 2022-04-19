@@ -13,7 +13,7 @@ export class ConfiguracionGasesComponent implements OnInit {
   }
 
   test(){
-    return false;
+    return true;
   }
 
 }

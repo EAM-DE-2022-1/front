@@ -1,0 +1,36 @@
+#mainMargin {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  margin-right: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.container {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+
+.margenLabel {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.marginDiv {
+  width: 100%;
+}
+
+#mainDiv {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 2%;
+  text-align: center;
+}
+
+#siguienteRow {
+  text-align: right;
+}
+
+.slide {
+  margin-left: 40%;
+}
