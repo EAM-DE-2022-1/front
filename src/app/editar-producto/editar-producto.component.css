@@ -1,0 +1,45 @@
+.container{
+  border:  1px solid lightgray;
+  border-radius: 10px;
+  /*margin: 100px;*/
+}
+
+#mainMargin{
+  top: 60%;
+  left: 50%;
+  position: absolute;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.margenBoton2{
+  margin-top: 20px;
+  margin-left: 1100px;
+}
+
+.margenLabel{
+  margin-top: 50px;
+  margin-left: 525px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.margenBoton{
+  margin-left: 200px;
+  width: 150px;
+}
+
+.margenBoton3{
+  margin-left: 650px;
+  width: 150px;
+}
+
+.margenIzqInput{
+  margin-left: 300px;
+  margin-top: 25px;
+}
+
+.margenIzqInput2{
+  margin-left: 190px;
+  margin-top: 25px;
+}

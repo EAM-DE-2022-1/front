@@ -1,0 +1,99 @@
+<div  id="mainMargin" class="container">
+
+  <a mat-stroked-button href="http://localhost:4200/usuarioHome"
+     color="primary" class="margenBoton2 btn-block">Siguiente</a>
+
+  <p class="margenLabel">Edición de Producto</p>
+
+  <div class="col-sm">
+
+    <button mat-raised-button color="primary" class="margenBoton btn-block" (click)="mostrarProducto1()"
+            [disabled]="mostrarBoton1">
+      Producto N°1
+    </button>
+
+    <button mat-raised-button color="primary" class="margenBoton3 btn-block" (click)="mostrarProducto2()"
+            [disabled]="mostrarBoton2">
+      Producto N°2
+    </button>
+
+  </div>
+
+  <div class="col-sm">
+
+    <mat-form-field class="example-form-field margenIzqInput" appearance="fill">
+      <mat-label>Bombillo N°1</mat-label>
+      <input matInput type="text" [disabled]="activar1" value="Bombillo N°1">
+      <button  matSuffix mat-icon-button aria-label="Clear" (click)=editarBombillo()>
+        <mat-icon>edit</mat-icon>
+      </button>
+      <button  matSuffix mat-icon-button aria-label="Clear" (click)=guardarBombillo()>
+        <mat-icon>save</mat-icon>
+      </button>
+    </mat-form-field>
+
+
+    <mat-form-field class="example-form-field margenIzqInput2" appearance="fill">
+      <mat-label>Bombillo N°2</mat-label>
+      <input matInput type="text" [disabled]="activar2" value="Bombillo N°2">
+      <button matSuffix mat-icon-button aria-label="Clear" (click)=editarBombillo2()>
+        <mat-icon>edit</mat-icon>
+      </button>
+      <button matSuffix mat-icon-button aria-label="Clear" (click)=guardarBombillo2()>
+        <mat-icon>save</mat-icon>
+      </button>
+    </mat-form-field>
+
+
+
+    <mat-form-field class="example-form-field margenIzqInput" appearance="fill">
+      <mat-label>Bombillo N°3</mat-label>
+      <input matInput type="text" [disabled]="activar3" value="Bombillo N°3">
+      <button matSuffix mat-icon-button aria-label="Clear" (click)=editarBombillo3()>
+        <mat-icon>edit</mat-icon>
+      </button>
+      <button matSuffix mat-icon-button aria-label="Clear" (click)=guardarBombillo3()>
+        <mat-icon>save</mat-icon>
+      </button>
+    </mat-form-field>
+
+
+    <mat-form-field  class="example-form-field margenIzqInput2" appearance="fill">
+      <mat-label>Bombillo N°4</mat-label>
+      <input matInput type="text" [disabled]="activar4" value="Bombillo N°4">
+      <button matSuffix mat-icon-button aria-label="Clear" (click)=editarBombillo4()>
+        <mat-icon>edit</mat-icon>
+      </button>
+      <button matSuffix mat-icon-button aria-label="Clear" (click)=guardarBombillo4()>
+        <mat-icon>save</mat-icon>
+      </button>
+    </mat-form-field>
+
+    <mat-form-field *ngIf="mostrar"  class="example-form-field margenIzqInput" appearance="fill">
+      <mat-label>Bombillo N°5</mat-label>
+      <input matInput type="text" [disabled]="activar5" value="Bombillo N°5">
+      <button matSuffix mat-icon-button aria-label="Clear" (click)=editarBombillo5()>
+        <mat-icon>edit</mat-icon>
+      </button>
+      <button matSuffix mat-icon-button aria-label="Clear" (click)=guardarBombillo5()>
+        <mat-icon>save</mat-icon>
+      </button>
+    </mat-form-field>
+
+    <mat-form-field *ngIf="mostrar"  class="example-form-field margenIzqInput2" appearance="fill">
+      <mat-label>Bombillo N°6</mat-label>
+      <input matInput type="text" [disabled]="activar6" value="Bombillo N°6">
+      <button matSuffix mat-icon-button aria-label="Clear" (click)=editarBombillo6()>
+        <mat-icon>edit</mat-icon>
+      </button>
+      <button matSuffix mat-icon-button aria-label="Clear" (click)=guardarBombillo6()>
+        <mat-icon>save</mat-icon>
+      </button>
+    </mat-form-field>
+
+  </div>
+
+</div>
+  <!--  <button mat-stroked-button color="primary" class="margenBoton2">Siguiente</button>-->
+
+
