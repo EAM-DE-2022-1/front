@@ -1,0 +1,32 @@
+<div id="mainMargin" fxLayout="row" fxLayoutAlign="center center" routerLinkActive="active">
+  <mat-card class="box">
+    <mat-card-header class="header-card">
+      <span class="tituloBold">Inicio de sesion</span>
+      <br><br>
+    </mat-card-header>
+    <div id="errorMsgs">
+      <span id="error" *ngIf="loginError">&iexcl;Usuario o contraseña incorrectos&excl;</span>
+      <span id="error" *ngIf="emptyFieldsError">&iexcl;Por favor, llena los campos adecuadamente&excl;</span>
+      </div>
+    <form class="example-form" (ngSubmit)="iniciarSesion(f)" #f="ngForm">
+      <mat-card-content>
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Usuario" [(ngModel)]="usuario.nombreUsuario" name="nombreUsuario" required>
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+          <input type="password" matInput placeholder="Contraseña" [(ngModel)]="usuario.password" name="password"
+            required>
+        </mat-form-field>
+      </mat-card-content>
+      <br>
+      <!--     <a mat-raised-button href="http://localhost:4200/registroUsuario" ondblclick="myFunction()" color="primary"
+        class="margenBoton" class="btn-block">Iniciar sesion</a> -->
+      <button type="submit" mat-raised-button color="primary" id="guardarBtn">GUARDAR</button>
+    </form>
+  </mat-card>
+  <!-- <script>
+    function myFunction() {
+      href = "http://localhost:4200/configuracionAdministrator"
+    }
+  </script> -->
+</div>
