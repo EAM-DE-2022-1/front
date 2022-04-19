@@ -1,15 +1,15 @@
-#mainMargin{
+
+  .container{
+    border:  1px solid lightgray;
+    border-radius: 20px;
+
+  }
+  #mainMargin{
     top: 50%;
     left: 50%;
     position: absolute;
     margin-right: -50%;
     transform: translate(-50%, -50%)
-  }
-  
-  .container{
-    border:  1px solid lightgray;
-    border-radius: 10px;
-    /*margin: 100px;*/
   }
   
   .margenBoton2{
@@ -19,7 +19,7 @@
   
   .margenLabel{
     margin-top: 50px;
-    margin-left: 250px;
+   
     font-size: 30px;
     font-weight: bold;
   }
@@ -34,3 +34,7 @@
     height: 60px;
   }
   
+ 
+  .progress{
+    position: relative;
+  }
