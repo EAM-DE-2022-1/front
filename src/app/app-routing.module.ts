@@ -8,6 +8,8 @@ import {VistaProductoComponent} from "./vista-producto/vista-producto.component"
 import {EditarProductoComponent} from "./editar-producto/editar-producto.component";
 import { ConfiguracionAmbienteComponent } from './configuracion-ambiente/configuracion-ambiente.component';
 import { ConfiguracionGasesComponent } from './configuracion-gases/configuracion-gases.component';
+import { ConfiguracionAdministratorComponent } from './configuracion-administrator/configuracion-administrator.component';
+
 
 const routes: Routes = [
   {path: 'login', component: LoginComponent},
@@ -19,6 +21,8 @@ const routes: Routes = [
   { path: '**', pathMatch: 'full', redirectTo: 'login'},
   { path: 'configuracionAmbiente', component: ConfiguracionAmbienteComponent },
   { path: 'configuracionGases', component: ConfiguracionGasesComponent },
+  { path: 'configuracionAdministrator', component: ConfiguracionAdministratorComponent }
+
 ];
 
 @NgModule({
