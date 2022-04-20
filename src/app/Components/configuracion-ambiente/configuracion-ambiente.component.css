@@ -11,30 +11,39 @@
     margin-right: -50%;
     transform: translate(-50%, -50%)
   }
-  
+
   .margenBoton2{
     margin-top: 20px;
     margin-left: 1200px;
   }
-  
+
   .margenLabel{
     margin-top: 50px;
-   
+    margin-left: 360px;
     font-size: 30px;
     font-weight: bold;
   }
-  
+
   .marginDiv{
     margin-left: 800px;
     margin-top: 20px;
   }
-  
+
   .tamaño{
     width: 60px;
     height: 60px;
   }
-  
- 
+
+
   .progress{
     position: relative;
+  }
+
+  .margenLabel3{
+    margin-left: 50px ;
+  }
+
+  .margenBarraProg{
+    margin-left: 50px;
+    margin-bottom: 50px;
   }
