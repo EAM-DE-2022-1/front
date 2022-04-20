@@ -5,10 +5,12 @@
       <br><br>
     </mat-card-header>
     <div id="errorMsgs">
-      <span id="error" *ngIf="loginError">&iexcl;Usuario o contraseña incorrectos&excl;</span>
+<!--      <span id="error" *ngIf="loginError">&iexcl;Usuario o contraseña incorrectos&excl;</span>-->
+      <span *ngIf="loginError">&iexcl;Usuario o contraseña incorrectos&excl;</span>
       <span id="error" *ngIf="emptyFieldsError">&iexcl;Por favor, llena los campos adecuadamente&excl;</span>
       </div>
-    <form class="example-form" (ngSubmit)="iniciarSesion(f)" #f="ngForm">
+<!--    <form class="example-form" (ngSubmit)="iniciarSesion(f)" #f="ngForm">-->
+    <form class="example-form"  #f="ngForm">
       <mat-card-content>
         <mat-form-field class="example-full-width">
           <input matInput placeholder="Usuario" [(ngModel)]="usuario.nombreUsuario" name="nombreUsuario" required>

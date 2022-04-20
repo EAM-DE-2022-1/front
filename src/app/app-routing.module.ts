@@ -9,6 +9,10 @@ import { EditarProductoComponent } from "./Components/editar-producto/editar-pro
 import { ConfiguracionAmbienteComponent } from './Components/configuracion-ambiente/configuracion-ambiente.component';
 import { ConfiguracionGasesComponent } from './Components/configuracion-gases/configuracion-gases.component';
 import { ConfiguracionAdministratorComponent } from './Components/configuracion-administrator/configuracion-administrator.component';
+import {ConfiguracionAperturaComponent} from "./Components/configuracion-apertura/configuracion-apertura.component";
+import {
+  ConfiguracionMovimientoComponent
+} from "./Components/configuracion-movimiento/configuracion-movimiento.component";
 
 
 const routes: Routes = [
@@ -21,8 +25,10 @@ const routes: Routes = [
   { path: 'configuracionAmbiente', component: ConfiguracionAmbienteComponent },
   { path: 'configuracionGases', component: ConfiguracionGasesComponent },
   { path: 'configuracionAdministrator', component: ConfiguracionAdministratorComponent },
+  { path: 'configuracionApertura', component: ConfiguracionAperturaComponent},
+  { path: 'configuracionMovimiento', component: ConfiguracionMovimientoComponent},
   { path: '**', pathMatch: 'full', redirectTo: 'login'}
-  
+
 ];
 
 @NgModule({

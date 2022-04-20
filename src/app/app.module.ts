@@ -23,6 +23,8 @@ import { ConfiguracionAmbienteComponent } from './Components/configuracion-ambie
 import { ConfiguracionGasesComponent } from './Components/configuracion-gases/configuracion-gases.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CookieService } from 'ngx-cookie-service';
+import { ConfiguracionAperturaComponent } from './Components/configuracion-apertura/configuracion-apertura.component';
+import { ConfiguracionMovimientoComponent } from './Components/configuracion-movimiento/configuracion-movimiento.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { CookieService } from 'ngx-cookie-service';
     VistaProductoComponent,
     EditarProductoComponent,
     ConfiguracionAmbienteComponent,
-    ConfiguracionGasesComponent
+    ConfiguracionGasesComponent,
+    ConfiguracionAperturaComponent,
+    ConfiguracionMovimientoComponent
   ],
   imports: [
     BrowserModule,
