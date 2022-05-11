@@ -24,7 +24,7 @@ const routes: Routes = [
   {path: 'editarProducto', component: EditarProductoComponent},
   { path: 'configuracionAmbiente', component: ConfiguracionAmbienteComponent },
   { path: 'configuracionGases', component: ConfiguracionGasesComponent },
-  { path: 'configuracionAdministrator', component: ConfiguracionAdministratorComponent },
+  { path: 'configuracionAdministrador', component: ConfiguracionAdministratorComponent },
   { path: 'configuracionApertura', component: ConfiguracionAperturaComponent},
   { path: 'configuracionMovimiento', component: ConfiguracionMovimientoComponent},
   { path: '**', pathMatch: 'full', redirectTo: 'login'}

@@ -12,7 +12,8 @@
 
     <div class="row p-4" id="siguienteRow">
       <span> <a mat-stroked-button href="http://localhost:4200/configuracionLuces" color="primary"
-          class="margenBoton2 btn-block" id="siguienteBtn">Siguiente</a></span>
+          class="margenBoton2 btn-block" id="siguienteBtn">Siguiente</a>
+      </span>
     </div>
 
     <div class="row p-4">
@@ -29,19 +30,27 @@
         </a>
       </div>
       <div id="temperaturaYHumedadBtn" class="col-sm">
-        <button mat-raised-button color="primary" disabled>Temperatura y humedad</button>
+        <a mat-raised-button href="http://localhost:4200/configuracionAmbiente" color="primary">
+          Temperatura y humedad
+        </a>
       </div>
       <div id="sensorDeAperturaYCierreBtn" class="col-sm">
-        <button mat-raised-button color="primary" disabled>Sensor de apertura y cierre</button>
+        <a mat-raised-button href="http://localhost:4200/configuracionApertura" color="primary">
+          Sensor de apertura y cierre
+        </a>
       </div>
     </div>
 
     <div class="row p-4">
-      <div id="lucesBtn" class="col-sm">
-        <button mat-raised-button color="primary" disabled>Sensor de movimiento</button>
+      <div id="luces" class="col-sm">
+        <a mat-raised-button href="http://localhost:4200/configuracionMovimiento" color="primary">
+          Sensor de movimiento
+        </a>
       </div>
-      <div id="lucesBtn" class="col-sm">
-        <button mat-raised-button color="primary">Sensor de gases</button>
+      <div id="lucesBtn2" class="col-sm">
+        <a mat-raised-button href="http://localhost:4200/configuracionGases" color="primary">
+          Sensor de gases
+        </a>
       </div>
     </div>
 
