@@ -25,6 +25,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { CookieService } from 'ngx-cookie-service';
 import { ConfiguracionAperturaComponent } from './Components/configuracion-apertura/configuracion-apertura.component';
 import { ConfiguracionMovimientoComponent } from './Components/configuracion-movimiento/configuracion-movimiento.component';
+import {
+  ConfiguracionAdministratorComponent
+} from "./Components/configuracion-administrator/configuracion-administrator.component";
 
 @NgModule({
   declarations: [
@@ -38,7 +41,8 @@ import { ConfiguracionMovimientoComponent } from './Components/configuracion-mov
     ConfiguracionAmbienteComponent,
     ConfiguracionGasesComponent,
     ConfiguracionAperturaComponent,
-    ConfiguracionMovimientoComponent
+    ConfiguracionMovimientoComponent,
+    ConfiguracionAdministratorComponent
   ],
   imports: [
     BrowserModule,
