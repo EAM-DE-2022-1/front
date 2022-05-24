@@ -10,6 +10,8 @@ export class ConfiguracionAmbienteComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
+
   }
 
 }
